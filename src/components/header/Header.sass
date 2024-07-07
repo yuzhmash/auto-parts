@@ -1,0 +1,84 @@
+.header
+    height: 60px
+    width: 100%
+    display: grid
+    grid-template-columns: 134px 90px 433px 109px 175px 193px
+    align-items: center
+    gap: 50px
+    background-color: #510C0C
+    &__logo
+        width: 80px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-size: 20px
+        color: #fff
+        margin-left: 54px
+        cursor: pointer
+    &__location
+        width: 90px
+        display: flex
+        justify-content: center
+        align-items: center
+        color: #fff
+        transition: .1s all
+        cursor: pointer
+        &:hover
+            color: rgba(255, 255, 255, 0.7)
+    &__nav
+        width: 433px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        a, button
+            color: rgba(255, 255, 255, 1)
+            text-decoration: none
+            &:hover
+                color: rgba(255, 255, 255, 0.7)
+        button
+            background-color: rgba(255, 255, 255, .0)
+            border: none
+            text-align: center
+            align-items: center
+            cursor: pointer
+    &__social
+        width: 109px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        color: #FFF
+        &_telega, &_whats, &_face, &_inst
+            transition: .2s all
+            cursor: pointer
+            &:hover
+                color:#00A3FF
+        &_whats
+            &:hover
+                color: #00DF24
+        &_face
+            &:hover
+                color: #0066FF
+        &_inst 
+            &:hover
+                color: #FF0000
+        a
+            color: #FFF
+    &__btn
+        width: 175px
+        height: 38px
+        background-color: #fff
+        border: none
+        border-radius: 10px
+        font-size: 16px
+        cursor: pointer
+        transition: .2s all
+        &:hover
+            color: rgba(0, 0, 0, 0.7)
+            background-color: rgba(255, 255, 255, 0.7)
+    &__login
+        color: #fff
+        font-size: 16px
+        cursor: pointer
+        transition: .2s all
+        &:hover
+            color: rgba(255, 255, 255, 0.7)

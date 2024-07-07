@@ -1,0 +1,68 @@
+.cities
+    position: absolute
+    top: 61px
+    min-height: 100px
+    // overflow: scroll
+    width: 100%
+    background-color: #510C0C
+    border-bottom-left-radius: 40px
+    border-bottom-right-radius: 40px
+    z-index: 99999
+    &__letters
+        display: grid
+        grid-template-columns: repeat(7, 1fr)
+        gap: 25px
+        text-align: center
+        padding: 0
+    &__letter, &__current-city
+        list-style-type: none
+        cursor: pointer
+        color: #fff
+        font-size: 17px
+        &:hover
+            color: rgba(255, 255, 255, 0.7)
+    // &__current-city
+    //     list-style-type: none
+    //     color: #fff
+    //     cursor: pointer
+    //     &:hover
+    //         color: rgba(255, 255, 255, 0.7)
+    &__list
+        display: grid
+        grid-template-columns: repeat(12, 1fr)
+        color: #fff
+        font-size: 14px
+        font-weight: 200
+        ul
+            padding: 0
+            li
+                margin-bottom: 4px
+                cursor: pointer
+                &:hover
+                    color: rgba(255, 255, 255, 0.7)
+    &__imgs
+        width: 360px
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        align-items: center
+        gap: 60px
+        margin-top: 28px
+        &_img
+            position: relative
+            width: 200px
+            cursor: pointer
+            border-radius: 20px
+            overflow: hidden
+            img
+                display: block
+                max-width: 100%
+                transition: .3s all
+                &:hover
+                    transform: scale(1.1)
+            span
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+                font-size: 20px
+                color: #fff
