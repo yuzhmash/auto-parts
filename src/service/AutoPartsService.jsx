@@ -8,7 +8,11 @@ const useAutoPartsService = () => {
         return await request("http://localhost:3098/city");
     }
 
-    return {getCities}
+    const getCars = async () => {
+        return await request("http://localhost:3098/cars")
+    }
+
+    return {getCities, getCars}
 
 }
 

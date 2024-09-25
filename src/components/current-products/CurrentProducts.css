@@ -1,0 +1,21 @@
+.current-products__wrapper {
+  width: 857px;
+  display: flex;
+  justify-content: space-between;
+}
+.current-products__title, .current-products__price {
+  width: 213px;
+  font-size: 17px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+.current-products__title span, .current-products__price span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.current-products__img {
+  width: 260px;
+  margin-bottom: 4px;
+}
+.current-products__img img {
+  max-width: 100%;
+}/*# sourceMappingURL=CurrentProducts.css.map */

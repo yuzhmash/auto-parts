@@ -1,0 +1,100 @@
+.header {
+  height: 60px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 134px 90px 433px 109px 175px 193px;
+  align-items: center;
+  gap: 50px;
+  background-color: #C58A17;
+}
+.header__logo {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 54px;
+  cursor: pointer;
+}
+.header__location {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: 0.1s all;
+  cursor: pointer;
+}
+.header__location:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.header__nav {
+  width: 433px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav a, .header__nav button {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.header__nav a:hover, .header__nav button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.header__nav button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header__social {
+  width: 109px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+}
+.header__social_telega, .header__social_whats, .header__social_face, .header__social_inst {
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.header__social_telega:hover, .header__social_whats:hover, .header__social_face:hover, .header__social_inst:hover {
+  color: #00A3FF;
+}
+.header__social_whats:hover {
+  color: #00DF24;
+}
+.header__social_face:hover {
+  color: #0066FF;
+}
+.header__social_inst:hover {
+  color: #FF0000;
+}
+.header__social a {
+  color: #FFF;
+}
+.header__btn {
+  width: 175px;
+  height: 38px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.header__btn:hover {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.header__login {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.header__login:hover {
+  color: rgba(255, 255, 255, 0.7);
+}/*# sourceMappingURL=Header.css.map */

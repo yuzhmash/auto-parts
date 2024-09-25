@@ -1,0 +1,42 @@
+.brands {
+  margin-bottom: 100px;
+}
+.brands__wrapper {
+  min-height: calc(100vh - 350px);
+}
+.brands__wrapper ul {
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+.brands__wrapper ul li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  list-style-type: none;
+  cursor: pointer;
+  transition: 0.1s all;
+}
+.brands__wrapper ul li:hover {
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.7;
+}
+.brands__btn {
+  width: 173px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #1A76CB;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  cursor: pointer;
+  transition: 0.1s all;
+}
+.brands__btn:hover {
+  color: rgba(26, 118, 203, 0.7);
+}/*# sourceMappingURL=CarsList.css.map */

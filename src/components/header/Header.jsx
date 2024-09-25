@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faPlus } from '@fortawesome/free-solid-svg-icons';
@@ -19,8 +20,7 @@ const Header = () => {
         <>
             <header className="header">
                 <div className="header__logo">
-                    <img src={logo} alt="logo" />
-                    30%
+                    <Link to="/"><img src={logo} alt="logo" />30%</Link>
                 </div>
                 <a onClick={() => setOpenSubHeader(!openSubHeader)} className="header__location">
                     <FontAwesomeIcon style={{marginRight: "5px"}} icon={faLocationDot} />

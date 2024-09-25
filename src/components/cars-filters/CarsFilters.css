@@ -1,0 +1,114 @@
+.filters {
+  margin-bottom: 170px;
+}
+.filters__btns {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.filters__region-btn {
+  width: 100px;
+  height: 35px;
+  font-size: 13px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s all;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.filters__region-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+}
+.filters__btn-group {
+  width: 311px;
+  display: grid;
+  grid-template-columns: 1fr 150px 1fr;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+.filters__btn-all, .filters__btn-used-parts, .filters__btn-new {
+  font-size: 18px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.filters__btn-all:hover, .filters__btn-used-parts:hover, .filters__btn-new:hover {
+  color: #000;
+}
+.filters__form {
+  width: 966px;
+  min-height: 150px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.form__cars, .form__type select, .form__models, .form__generation, .form__btn {
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.form__price, .form__year {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 7px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.form__price input, .form__year input {
+  width: 149.5px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  padding: 0 10px 0 10px;
+}
+.form__type {
+  display: flex;
+  justify-content: space-between;
+}
+.form__type select {
+  width: 145px;
+}
+.form__clear, .form__hasbulla {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-align: left;
+  align-items: center;
+}
+.form__clear:hover, .form__hasbulla:hover {
+  color: #C58A17;
+}
+.form__btn {
+  background-color: #C58A17;
+  color: #fff;
+  transition: 0.1s all;
+}
+.form__btn:hover {
+  background-color: rgba(197, 138, 23, 0.8);
+}
+
+.active-region-btn {
+  background-color: #C58A17;
+  color: #fff;
+}
+
+.active-btn-groupe {
+  color: #000;
+}/*# sourceMappingURL=CarsFilters.css.map */
